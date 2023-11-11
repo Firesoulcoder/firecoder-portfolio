@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(51, 57, 62);
+}
+/* Projects Dropdown */
+.projects{
+    text-decoration:none;
+}
+.dropdown-item:hover{
+    background-color:rgb(46, 52, 58);
+    cursor:pointer;
+}
+.dropdown-item:active{
+    background-color:rgb(28, 31, 35);
+}
+.dropdown-divider{
+    border-color:rgb(180, 180, 180)
+}
+/* Page Header */
+.header{
+    color:rgb(209, 209, 209);
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+/* Main CSS */
+.col h2{
+    text-align:center;
+    color:rgb(173, 173, 173);
+}
+.col h4{
+    background-color:rgb(64, 67, 70);
+    padding:10px;
+    margin:3px;
+    color:rgb(115, 115, 115);
+}
+.col ul{
+    background-color:rgb(64, 67, 70);
+    color:rgb(115, 115, 115);
+    margin:3px;
+}
+/* Projects Carousel */
+.bd-placeholder-img{
+    font-size:1.125rem;
+    text-anchor:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+@media (min-width: 768px){
+    .bd-placeholder-img-lg{
+      font-size: 3.5rem;
+    }
+}
+.carousel{
+    margin-bottom:1.5rem;
+}
+.carousel-caption{
+    bottom:3rem;
+    z-index:10;
+}
+.carousel-item{
+    height:32rem;
+}
+.carousel-item > img{
+    position:absolute;
+    top:0;
+    left:0;
+    min-width:100%;
+    height:32rem;
+}
+#projectCarousel{
+    width:80%;
+}
+/* Contact Form */
+.formcontainer{
+    width:100%;
+    height:65vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+form{
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    padding:2vw 4vw;
+    width:90%;
+    max-width:600px;
+    border-radius:10px;
+}
+form input, form textarea{
+    border:0;
+    margin:10px 0;
+    padding:20px;
+    outline:none;
+    background-color:#f5f5f5;
+    font-size:16px;
+}
+form button{
+    background-color:rgb(51, 57, 62);
+    color:rgba(255, 255, 255, .75);
+    padding:15px;
+    font-size:18px;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    width:150px;
+    margin:20px auto 0;
+    border-radius:30px;
+}
+/* Footer */ 
+footer{
+    bottom:0;
+    width:100%;
+    text-align:center;
+    position:relative;
+    color:#575d64;
+    background-color:rgb(33, 37, 41);
+}
+.footerlink{
+    color:inherit;
+    text-decoration:none;
+}
+.footerlink:hover{
+    color:rgba(255, 255, 255, .75);
+    text-decoration:underline;
+}
